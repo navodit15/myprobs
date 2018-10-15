@@ -84,7 +84,7 @@ def isSumOfKprimes(N, K):
   
 # Driver function 
 
-n = int (input
+n = int (input())
 
 k = 2
 
