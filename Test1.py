@@ -21,16 +21,8 @@ def is_semiprime(n):
     return 1
 
 
-
-def semiprime(n): 
-
-    if checkSemiprime(n) == True: 
-
-        print("True") 
-
-    else: 
-
-        print("False") 
+   
+       
 
 
 def isSumOfKprimes(N, K): 
@@ -51,7 +43,7 @@ def isSumOfKprimes(N, K):
 
     if (K == 1): 
 
-        return isprime(N) 
+        return is_semiprime(N) 
 
   
 
@@ -79,7 +71,7 @@ def isSumOfKprimes(N, K):
 
         # sum as even. 
 
-        return isprime(N - 2); 
+        return is_semiprime(N - 2); 
 
       
 
@@ -92,7 +84,7 @@ def isSumOfKprimes(N, K):
   
 # Driver function 
 
-n = 10
+n = int (input
 
 k = 2
 
