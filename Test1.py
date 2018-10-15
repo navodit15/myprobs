@@ -7,13 +7,8 @@
 
            
 
-                 
-
-  
-
+              
        
-
-
   
 
 
@@ -23,7 +18,7 @@ def is_semiprime(n):
         if n % d1 == 0:
             d2 = n / d1
             return is_prime(d1) and is_prime(d2)
-    return False
+    return 1
 
 
 
