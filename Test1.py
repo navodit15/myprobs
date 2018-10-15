@@ -90,8 +90,8 @@ k = 2
 
 if (isSumOfKprimes (n, k)): 
 
-    print ("Yes") 
+    print ("YES") 
 
 else: 
 
-    print ("No")
+    print ("NO")
